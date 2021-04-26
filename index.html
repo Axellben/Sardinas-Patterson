@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sardinas-Patterson</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha/katex.min.css"
+      integrity="sha384-FkMHIpkXHDi3o2XSOOa5/9TpXg4AX4DXPSC6z28hi2Eqn/27ea8MTV18rTq9OyQR"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body oncontextmenu="return false">
+    <div id="form">
+      <h1>Sardinas-Patterson</h1>
+      <div class="ui massive action input">
+        <input id="code" type="text" placeholder="a bb abba babab" />
+        <button id="button" class="ui inverted pink button">
+          <i class="check icon"></i>Solve
+        </button>
+      </div>
+    </div>
+    <section id="results">
+      <div id="success" class="ui icon success message">
+        <i class="file text icon"></i>
+        <div class="content">
+          <div class="header">E cod</div>
+          <p></p>
+        </div>
+      </div>
+      <div id="error" class="ui icon error message">
+        <i class="file icon"></i>
+        <div class="content">
+          <div class="header">Nu e cod</div>
+          <p></p>
+        </div>
+      </div>
+      <div id="alphabet"></div>
+      <div id="lcode"></div>
+      <div id="rounds"></div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha/katex.min.js"
+      integrity="sha384-wt0V9VomB0kx/jgLEkR18Slo+aNALuRwOOrWkicjQ0HHpFqu0JKzaFkbtmsku5a/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

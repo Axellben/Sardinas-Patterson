@@ -1,0 +1,24 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input > input {
+  width: 80%;
+  margin: 0 auto;
+}
+#rounds {
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.katex {
+  font-size: 3em !important;
+}
