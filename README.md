@@ -2,4 +2,4 @@
 
 Sardinas-Patterson Solver
 
-https://axellben.github.io/Sardinas-Patterson/
+https://alxcrt.github.io/Sardinas-Patterson/
